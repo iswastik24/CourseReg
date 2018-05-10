@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Students"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:onClick="stud"
+        android:maxLines="100"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/tce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1da15cs011
+1da15cs012
+1da13cs051
+1da15cs066
+1da15cs007"
+        android:gravity="center"
+
+        android:layout_gravity="center"
+        android:maxLines="100"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"/>
+</LinearLayout>
+
+
+
